@@ -3,7 +3,6 @@ const net = require('net');
 // TCP 서버 생성
 const server = net.createServer((socket) => {
     console.log('client connected.');
-
     // 데이터 수신
     socket.on('data', (data) => {
         console.log(`data accep to client: ${data}`);

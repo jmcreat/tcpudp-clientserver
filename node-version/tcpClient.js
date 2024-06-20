@@ -13,7 +13,7 @@ client.on('data', (data) => {
     console.log(`data received from server : ${data}`);
     
     // 데이터 수신 후 연결 종료
-    // client.end();
+    client.end();
 });
 
 // 연결 종료
