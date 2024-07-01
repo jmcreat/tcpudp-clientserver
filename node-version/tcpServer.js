@@ -23,6 +23,6 @@ const server = net.createServer((socket) => {
 });
 
 // 서버가 8080 포트에서 대기하도록 설정
-server.listen(8111, () => {
-    console.log('TCP terver wait 8111 port.');
+server.listen(8080, () => {
+    console.log('TCP terver wait 8080 port.');
 });
